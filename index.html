@@ -11,9 +11,16 @@
     <meta name="description" content="{{site.description}}">
     <meta name="author" content="">
     <meta property="og:image" content="{{site.logo}}"/>
-    <meta property="og:title" content="{{site.hashtag}} | {{ site.utc | date: "%B %-d, %Y" }}"/>
+    <meta property="og:title" content="{{site.name}} | {{ site.utc | date: "%B %-d, %Y" }}"/>
     <meta property="og:url"  content="{{site.url}}"/>
     <meta property="og:type"  content="website"/>
+    <meta property="og:description"  content="{{site.description}}"/>
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Countdown to {{site.name}} - {{ site.utc | date: "%B %-d, %Y" }}">
+    <meta name="twitter:description" content="{{site.description}}">
+    <meta name="twitter:image" content="{{site.logo}}">
+
 
     <!-- Font from google -->
     <link href='//fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
