@@ -12,4 +12,4 @@ colors: #(Optional)
   secondary: "#EE4823" #secondary color for the page
   textcolor: "#FFF" #color of the text, which is overlayed on the primary color
 fontfamily: "'Open Sans', sans-serif" #optional
-socialmediaimg: "assets/img/socialmedia-share-image.jpg"
+socialmediaimg: "/assets/img/socialmedia-share-image.jpg"
